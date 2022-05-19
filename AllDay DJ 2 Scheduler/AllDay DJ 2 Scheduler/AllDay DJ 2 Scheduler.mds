@@ -1,0 +1,16 @@
+<Combine name="AllDay DJ 2 Scheduler" fileversion="2.0">
+  <Configurations active="Debug|Any CPU">
+    <Configuration name="Debug|Any CPU" ctype="CombineConfiguration">
+      <Entry build="True" name="AllDay DJ 2 Scheduler" configuration="Debug|Any CPU" />
+    </Configuration>
+    <Configuration name="Release|Any CPU" ctype="CombineConfiguration">
+      <Entry build="True" name="AllDay DJ 2 Scheduler" configuration="Release|Any CPU" />
+    </Configuration>
+  </Configurations>
+  <StartMode startupentry="AllDay DJ 2 Scheduler" single="True">
+    <Execute type="None" entry="AllDay DJ 2 Scheduler" />
+  </StartMode>
+  <Entries>
+    <Entry filename="./AllDay DJ 2 Scheduler.vbproj" />
+  </Entries>
+</Combine>

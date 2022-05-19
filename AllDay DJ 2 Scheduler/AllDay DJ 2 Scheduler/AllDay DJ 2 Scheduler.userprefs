@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<UserCombinePreferences filename="/home/marc/Documents/Visual Studio 2005/Projects/AllDay DJ 2 Scheduler/AllDay DJ 2 Scheduler/AllDay DJ 2 Scheduler.mds">
+  <Files>
+    <File filename="./frmMain.vb" />
+  </Files>
+  <Views>
+    <ViewMemento Id="MonoDevelop.Ide.Gui.Pads.ProjectPad">
+      <TreeView>
+        <Node expanded="True">
+          <Node name="AllDay DJ 2 Scheduler" expanded="True">
+            <Node name="frmMain.vb" expanded="False" selected="True" />
+          </Node>
+        </Node>
+      </TreeView>
+    </ViewMemento>
+    <ViewMemento Id="MonoDevelop.Ide.Gui.Pads.ClassPad">
+      <TreeView>
+        <Node expanded="True" />
+      </TreeView>
+    </ViewMemento>
+  </Views>
+  <Properties>
+    <Properties>
+      <Property key="ActiveConfiguration" value="Debug|Any CPU" />
+      <Property key="ActiveWindow" value="/home/marc/Documents/Visual Studio 2005/Projects/AllDay DJ 2 Scheduler/AllDay DJ 2 Scheduler/frmMain.vb" />
+    </Properties>
+  </Properties>
+</UserCombinePreferences>

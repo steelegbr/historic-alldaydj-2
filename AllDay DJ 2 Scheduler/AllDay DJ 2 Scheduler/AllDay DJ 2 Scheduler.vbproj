@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B5B9B14B-939E-44AD-8C72-E9C23B56150A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>AllDay_DJ_2_Scheduler.My.MyApplication</StartupObject>
+    <RootNamespace>AllDay_DJ_2_Scheduler</RootNamespace>
+    <AssemblyName>AllDay DJ 2 Scheduler</AssemblyName>
+    <MyType>WindowsForms</MyType>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>./bin/Debug/</OutputPath>
+    <DocumentationFile>AllDay DJ 2 Scheduler.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <OutputType>WinExe</OutputType>
+    <AssemblyName>AllDay DJ 2 Scheduler</AssemblyName>
+    <RootNamespace>AllDay_DJ_2_Scheduler</RootNamespace>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>
+    </DefineConstants>
+    <WarningLevel>4</WarningLevel>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>True</Optimize>
+    <OutputPath>./bin/Release/</OutputPath>
+    <DocumentationFile>AllDay DJ 2 Scheduler.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <OutputType>WinExe</OutputType>
+    <AssemblyName>AllDay DJ 2 Scheduler</AssemblyName>
+    <DebugSymbols>True</DebugSymbols>
+    <RootNamespace>AllDay_DJ_2_Scheduler</RootNamespace>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>
+    </DefineConstants>
+    <WarningLevel>4</WarningLevel>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+    <Reference Include="System.Data, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+    <Reference Include="System.Xml, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="AudioItem.vb" />
+    <Compile Include="frmAbout.Designer.vb">
+      <DependentUpon>frmAbout.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAbout.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddToEvent.Designer.vb">
+      <DependentUpon>frmAddToEvent.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAddToEvent.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddToRotation.Designer.vb">
+      <DependentUpon>frmAddToRotation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAddToRotation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEditDay.Designer.vb">
+      <DependentUpon>frmEditDay.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmEditDay.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEditEvent.Designer.vb">
+      <DependentUpon>frmEditEvent.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmEditEvent.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEditRotation.Designer.vb">
+      <DependentUpon>frmEditRotation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmEditRotation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Database.vb" />
+    <Compile Include="dlgAddFromPlaylists.Designer.vb">
+      <DependentUpon>dlgAddFromPlaylists.vb</DependentUpon>
+    </Compile>
+    <Compile Include="dlgAddFromPlaylists.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ErrorHandler.vb" />
+    <Compile Include="frmEditSpot.Designer.vb">
+      <DependentUpon>frmEditSpot.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmEditSpot.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddToSpotHardware.designer.vb">
+      <DependentUpon>frmAddToSpotHardware.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAddToSpotHardware.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSettings.Designer.vb">
+      <DependentUpon>frmSettings.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmSettings.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSplashScreen.Designer.vb">
+      <DependentUpon>frmSplashScreen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmSplashScreen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ScheduledEvent.vb" />
+    <Compile Include="frmMain.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.vb">
+      <DependentUpon>frmMain.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="General.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Playlist.vb" />
+    <Compile Include="ProgramSettings.vb" />
+    <Compile Include="Rotation.vb" />
+    <Compile Include="Spot.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="frmAbout.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmAbout.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddToEvent.resx">
+      <DependentUpon>frmAddToEvent.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddToRotation.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmAddToRotation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEditDay.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmEditDay.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEditEvent.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmEditEvent.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEditRotation.resx">
+      <DependentUpon>frmEditRotation.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dlgAddFromPlaylists.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>dlgAddFromPlaylists.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEditSpot.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmEditSpot.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddToSpotHardware.resx">
+      <DependentUpon>frmAddToSpotHardware.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmMain.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSettings.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmSettings.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSplashScreen.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmSplashScreen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
